@@ -1,0 +1,21 @@
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+  } 
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: green;
+    color: white;
+  }
+  
+  

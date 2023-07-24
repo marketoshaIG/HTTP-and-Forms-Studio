@@ -1,19 +1,31 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8">
-	<script>
-		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script>
+  <meta charset="utf-8">
+  <title>Search Engine Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-	<form id="searchForm">
+  <form>
+	<fieldset>
+		<legend>Search Engine Options</legend>
     <!-- TODO: add form elements -->
-	</form>
+    <input type="text" name="q" placeholder="What do you want to search for?">
+    <input type="radio" name="engine" value="google" id="google">
+    <label for="google">Google</label>
+    <input type="radio" name="engine" value="duckduckgo" id="duckduckgo">
+    <label for="duckduckgo">DuckDuckGo</label>
+    <input type="radio" name="engine" value="bing" id="bing">
+    <label for="bing">Bing</label>
+    <input type="radio" name="engine" value="ask" id="ask">
+    <label for="ask">Ask</label>
+    <input type="submit" value="Go!" />
+	</fieldset>
+  </form>
 
+  <script src="script.js"></script>
 </body>
+</html>
+
+
